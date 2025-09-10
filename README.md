@@ -144,12 +144,14 @@ Congratulations on creating your Virtual Machine!
 
 1. To delete your VM and associated resources:
 - Go back to the Azure portal.
-![image](https://github.com/user-attachments/assets/c72b1037-3cbe-4e31-822a-fe81319e2124)
+![13](https://github.com/user-attachments/assets/0bef72ac-61eb-40ff-9414-b9d3cf3beb6b)
+
 
 - Navigate to your Resource Group.
 - Delete the resource group and any related folders (e.g., NetworkWatcherRG).
 (RG-network-activitie)
-![image](https://github.com/user-attachments/assets/ff63b762-f0b5-46d9-955e-1d537c2d9119)
+
+![14](https://github.com/user-attachments/assets/09626d47-bc95-4581-9d27-423edfe9b2e6)
 
 
 And that's it! You've successfully created, accessed, and deleted a Virtual Machine on Azure.
