@@ -28,7 +28,8 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 - Sign up for a free 30-day subscription.
 - Create a username and password for your tenant.
 - Access the portal anytime at portal.azure.com using your credentials.
-![image](https://github.com/user-attachments/assets/cb1c6cb2-9142-47a5-92f1-f3a24c26ed3d)
+![image](https://github.com/user-attachments/assets/d5a9425e-3cbc-4c8a-912d-2f26dd563064)
+
 
 
 
@@ -36,38 +37,45 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 
 3. Create a Resource Group
 - In the search bar, type "Resource Groups" and click on "Create Resource Group".
-![image](https://github.com/user-attachments/assets/3f413928-9fa7-4661-8fb4-c65553521eca)
+![image](https://github.com/user-attachments/assets/271e2e09-2af2-4348-9e7c-bd864858e460)
+
+
 
 - Enter a name for your resource group.
 - Under "Resource Details," choose your desired region.
 - Click "Review + Create." After validation, click "Create" to set up the resource group.
-![image](https://github.com/user-attachments/assets/44c9f750-83e1-48e6-8442-4422aad740c0)
+![image](https://github.com/user-attachments/assets/c71578ab-49a2-4bf7-b7fa-a68b13d416b2)
+
+
 
 
 
 
 4. Create a Virtual Machine
 - In the search bar, type "Virtual Machines."
-![image](https://github.com/user-attachments/assets/219fc684-bb34-4651-8961-9461fa09ebe2)
+![image](https://github.com/user-attachments/assets/8d8e2657-b8b0-42d8-8e34-d7a850964cf6)
+
 
 - Click "Create," then select "Azure Virtual Machine."
-![image](https://github.com/user-attachments/assets/6cbd1ff1-6262-4679-bced-63fb8c970814)
+![5](https://github.com/user-attachments/assets/bd05f239-83fa-4165-9adc-d0429c30634f)
+
 
 - In the creation form:
 - Select your Azure Subscription and the Resource Group you just created.
 - Name your Virtual Machine.
 - Choose the same region as your resource group.
-![image](https://github.com/user-attachments/assets/c1bbfc54-ca45-499f-b7ef-07c3a51ef923)
+![6](https://github.com/user-attachments/assets/2e1dd41a-a87b-4307-933f-9a1b240ddddb)
+
 
 - Select your desired Operating System under "Image."(windows 10 pro)
 - Pick the desired Size for your virtual CPU.(Standard D2s_v3 - 2 vcpus, 8 GiB memory)
-![image](https://github.com/user-attachments/assets/5e2df3f8-aa05-4a8c-a2f5-f9b237ead954)
+![7](https://github.com/user-attachments/assets/b507f7c0-020c-4422-af36-13ae0d1c48c1)
 
 
 - Create a username and password for the Administrator account.
 - Check the licensing box.
 Click "Review + Create." After validation, click "Create." This may take a few minutes.
-![image](https://github.com/user-attachments/assets/ab17b907-aada-4d4a-a698-1c53ad765778)
+![8](https://github.com/user-attachments/assets/2ffc211a-3fd1-43a7-ae75-43f9858e5832)
 
 
 Congratulations on creating your Virtual Machine!
@@ -79,11 +87,12 @@ Congratulations on creating your Virtual Machine!
 1. Access Your Virtual Machine
 - In the search bar, type "Virtual Machines" or find it under the "Azure Services" tab.
 - Click on the name of the VM you created to access the overview page.
-[
-](https://private-user-images.githubusercontent.com/183324257/372301928-219fc684-bb34-4651-8961-9461fa09ebe2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc3NTI3OTIsIm5iZiI6MTcyNzc1MjQ5MiwicGF0aCI6Ii8xODMzMjQyNTcvMzcyMzAxOTI4LTIxOWZjNjg0LWJiMzQtNDY1MS04OTYxLTk0NjFmYTA5ZWJlMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAwMVQwMzE0NTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZGViN2RlYTY3YThlOTBkODk0MzhlNDVmMzc5YzQ2ZmU3Mjk2YmUwY2E0NjI4MjAzNTBmZDk3MDI0N2Y5ZmM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UcvE2Wl1F2NfWeh9HIk9aCIC06HurUuxjZpz8-o1uiE)![image](https://github.com/user-attachments/assets/777c74f3-9d7f-4baa-b923-110d9519d51d)
+![2](https://github.com/user-attachments/assets/debace6b-08b1-49f4-b7d1-de67d03322cb)
+
 
 - Note the Public IP Address displayed.
-![image](https://github.com/user-attachments/assets/4f01d49b-e174-47f2-a966-7d9ce2a5e70e)
+![9](https://github.com/user-attachments/assets/4723087e-a17f-450f-8cf2-b74019effc1c)
+
 
 
 
@@ -92,19 +101,20 @@ Congratulations on creating your Virtual Machine!
 2. For Windows Users
 - Open the Start menu and type "Remote Desktop."
 - Paste or type the public IP address into the Remote Desktop Connection window.
-![image](https://github.com/user-attachments/assets/591a6a83-79f6-411e-8ce2-3dc34ac4d329)
+![10](https://github.com/user-attachments/assets/14bbbfc9-e6df-4674-b9ea-b772c4081022)
 
 - Enter the username and password you created for the VM.
 - If you receive a warning about security, click Yes to proceed.
 - Your Virtual Machine should load; enter your username and password when prompted.
 
+![11](https://github.com/user-attachments/assets/b4607231-a43a-4acb-836e-499a51db01e6)
 
-![image](https://github.com/user-attachments/assets/e3bc2421-98df-4395-836d-8582788db287)
 
 - Connecting to Your VM
 
+![12](https://github.com/user-attachments/assets/38d529ff-9c4d-46cc-acf5-cd442e1f288e)
 
-![image](https://github.com/user-attachments/assets/4860d276-db2c-4de3-a870-1e1ea34048b4)
+
 
 
 
