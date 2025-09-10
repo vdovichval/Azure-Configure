@@ -28,6 +28,7 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 - Sign up for a free 30-day subscription.
 - Create a username and password for your tenant.
 - Access the portal anytime at portal.azure.com using your credentials.
+
 ![image](https://github.com/user-attachments/assets/d5a9425e-3cbc-4c8a-912d-2f26dd563064)
 
 
@@ -37,6 +38,7 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 
 3. Create a Resource Group
 - In the search bar, type "Resource Groups" and click on "Create Resource Group".
+
 ![image](https://github.com/user-attachments/assets/271e2e09-2af2-4348-9e7c-bd864858e460)
 
 
@@ -44,6 +46,7 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 - Enter a name for your resource group.
 - Under "Resource Details," choose your desired region.
 - Click "Review + Create." After validation, click "Create" to set up the resource group.
+
 ![image](https://github.com/user-attachments/assets/c71578ab-49a2-4bf7-b7fa-a68b13d416b2)
 
 
@@ -53,10 +56,12 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 
 4. Create a Virtual Machine
 - In the search bar, type "Virtual Machines."
+
 ![image](https://github.com/user-attachments/assets/8d8e2657-b8b0-42d8-8e34-d7a850964cf6)
 
 
 - Click "Create," then select "Azure Virtual Machine."
+
 ![5](https://github.com/user-attachments/assets/bd05f239-83fa-4165-9adc-d0429c30634f)
 
 
@@ -64,17 +69,20 @@ This tutorial outlines the implementation of Azure Virtual Machines and remote d
 - Select your Azure Subscription and the Resource Group you just created.
 - Name your Virtual Machine.
 - Choose the same region as your resource group.
+  
 ![6](https://github.com/user-attachments/assets/2e1dd41a-a87b-4307-933f-9a1b240ddddb)
 
 
 - Select your desired Operating System under "Image."(windows 10 pro)
 - Pick the desired Size for your virtual CPU.(Standard D2s_v3 - 2 vcpus, 8 GiB memory)
+  
 ![7](https://github.com/user-attachments/assets/b507f7c0-020c-4422-af36-13ae0d1c48c1)
 
 
 - Create a username and password for the Administrator account.
 - Check the licensing box.
 Click "Review + Create." After validation, click "Create." This may take a few minutes.
+
 ![8](https://github.com/user-attachments/assets/2ffc211a-3fd1-43a7-ae75-43f9858e5832)
 
 
@@ -91,6 +99,7 @@ Congratulations on creating your Virtual Machine!
 
 
 - Note the Public IP Address displayed.
+  
 ![9](https://github.com/user-attachments/assets/4723087e-a17f-450f-8cf2-b74019effc1c)
 
 
@@ -101,6 +110,7 @@ Congratulations on creating your Virtual Machine!
 2. For Windows Users
 - Open the Start menu and type "Remote Desktop."
 - Paste or type the public IP address into the Remote Desktop Connection window.
+  
 ![10](https://github.com/user-attachments/assets/14bbbfc9-e6df-4674-b9ea-b772c4081022)
 
 - Enter the username and password you created for the VM.
